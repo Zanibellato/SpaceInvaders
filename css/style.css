@@ -1,0 +1,86 @@
+body{
+    overflow: hidden;
+    background-color: #000;
+    background-image: url("../img/background2.jpg");
+    background-size: 100% auto;
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    right:0; 
+    left:0;
+}
+
+div{
+    position: absolute;
+}
+.player{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/ship3.png");
+    background-size: 100% auto;
+    margin-bottom: 0;
+}
+
+.enemy-ship{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/enemyShip.png");
+    background-size: 100% auto;
+    margin-top: 0;
+}
+.explosion{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/explosion.png");
+    background-size: 100% auto;
+    margin-top: 0;
+}
+
+.yoda{
+    width: 150px;
+    height: 200px;
+    background-image: url("../img/yoda.png");
+    background-size: 100% auto;
+}
+.enemy{
+    width: 50px;
+    height: 50px;
+    background-image: url("../img/clone.png");
+    background-size: 100% auto;
+
+}
+
+.bullet{
+    width: 5px;
+    height: 5px;
+    background-color: #13da00;
+}
+
+.enemyBullet{
+    width: 5px;
+    height: 5px;
+    background-color: #ff3300;
+}
+
+#instruction{
+    color: #99ff33;
+    text-transform: uppercase;
+}
+
+#level{
+    color: green;
+}
+#score{
+    color: #fff;
+}
+#message{
+    color: red;
+}
+#life-level{
+    color: #00ffcc;
+}
+#enemyDamage{
+    color: #ffcc00;
+}
+
+
